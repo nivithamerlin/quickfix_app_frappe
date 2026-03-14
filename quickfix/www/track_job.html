@@ -1,0 +1,30 @@
+{% extends "templates/web.html" %}
+{% block page_content %}
+<h2>Track Your Job</h2>
+<form method="GET">
+    <input type="text" name="phone" placeholder="Enter phone number">
+    <button type="submit">Search</button>
+</form>
+
+{% if jobs %}
+<hr>
+<h3>Job Results</h3>
+<table class="table">
+    <tr>
+        <th>Job ID</th>
+        <th>Status</th>
+        <th>Device</th>
+    </tr>
+
+    {% for job in jobs %}
+    <tr>
+        <td>{{ job.name }}</td>
+        <td>{{ job.status }}</td>
+        <td>{{ job.device_model }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endif %}
+
+{% endblock %}

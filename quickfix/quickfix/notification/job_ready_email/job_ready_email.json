@@ -1,0 +1,35 @@
+{
+ "attach_files": "",
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status == \"Ready for Delivery\"",
+ "condition_type": "Python",
+ "creation": "2026-03-13 17:20:22.598121",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Job Card",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Dear Customer,\n\nYour job {{doc.name}} is now Ready for Delivery.\n\nPlease collect your device.\n\nThank you,\nQuickFix Service",
+ "message_type": "Plain Text",
+ "minutes_offset": 0,
+ "modified": "2026-03-13 17:20:22.598121",
+ "modified_by": "Administrator",
+ "module": "Quickfix",
+ "name": "Job Ready email",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Administrator"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Nivithamerlin",
+ "sender_email": "nivithamerlin@gmail.com",
+ "subject": "Job ready for Delivery"
+}

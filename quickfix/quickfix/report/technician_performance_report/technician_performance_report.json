@@ -1,0 +1,37 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2026-03-07 12:20:56.440168",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": null,
+ "modified": "2026-03-07 16:35:25.188315",
+ "modified_by": "Administrator",
+ "module": "Quickfix",
+ "name": "Technician Performance Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Technician",
+ "report_name": "Technician Performance Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "QF Service Staff"
+  },
+  {
+   "role": "QF Technician"
+  },
+  {
+   "role": "QF Manager"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 1000
+}

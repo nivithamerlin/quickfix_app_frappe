@@ -1,0 +1,8 @@
+Dear Customer,
+
+Your job {{doc.name}} is now Ready for Delivery.
+
+Please collect your device.
+
+Thank you,
+QuickFix Service
